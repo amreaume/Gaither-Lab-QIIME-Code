@@ -1,4 +1,4 @@
-This repository contains code for processing REU Intern Stephanie's MiSeq run data from November 2024, it also serves as a tutorial for Gaither Lab members :) This repository will take you through downloading fastq files from BaseSpace to generating ASVs with taxonomic assignment. However, there are a lot of customizations that can be made in QIIME- optimize and edit your own code as necessary. 
+This repository contains code for processing REU Intern Stephanie's 18S MiSeq run data from November 2024, it also serves as a tutorial for Gaither Lab members :) This repository will take you through downloading fastq files from BaseSpace to generating ASVs with taxonomic assignment. However, there are a lot of customizations that can be made in QIIME- optimize and edit your own code as necessary. 
 
 QIIME code is modified from https://github.com/Joseph7e/HCGS_Metabarcoding_Tutorials 
 
