@@ -1,0 +1,15 @@
+ # Run this code directly in the terminal
+ # Create a new directory for fastq files
+ mkdir 18Smiseqfiles_1124
+ cd 18Smiseqfiles_1124
+ # search basespace for projects
+ bs list projects
+ # change project id "442542100" to the id for your project
+ srun bs download project --id 442542100 
+ # Extract fastq.gz files
+ mv */* .
+ # Go back to directory that "18Smiseqfiles_1124" is in and make a new directory for raw fastq files
+ cd ../
+ mkdir raw
+ # Move fastq files to "raw"
+ mv /home/areaume/REU/18Smiseqfiles_1124/*.fastq.gz /home/areaume/REU/raw
